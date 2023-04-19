@@ -19,7 +19,14 @@ const TEMPLATES = {
   STYLES_DEF: "./templates/styles.module.d.ts",
   PACKAGE_JSON: "./templates/package.json",
 };
+const CHANGELOG_FILE = "CHANGELOG.md";
 const GLOBAL_CSS_VARS_SOURCE = "./src/theme/styles.module.css";
+
+copy([CHANGELOG_FILE, "dist/"], { up: true }, (err) => {
+  if (err) console.error(err);
+
+  console.log(`Changelog file copied sucessfully`);
+});
 
 // transform to important props (avoid sharing internal config)
 pkgTransform.transform("package.json", "dist/", {
@@ -38,11 +45,8 @@ readdirp("./dist/", { type: "directories" })
     const { fullPath, path } = entry;
 
     if (!IGNORED_FOLDERS.some((dir) => path.startsWith(dir)) && !EXCLUDED_DIR.includes(path)) {
-      console.log("entro al primer condicional");
       copy([TEMPLATES.STYLES_DEF, fullPath], { up: true }, (err) => {
         if (err) console.error(err);
-
-        console.log("copio correctamente", TEMPLATES.STYLES_DEF, "in", fullPath);
       });
 
       let main = `../node/${path}/index.js`;
