@@ -11,7 +11,8 @@
         "rollup.config.mjs",
         ".eslintrc.cjs",
         "jest.config.js",
-        "scripts"
+        "scripts",
+        "release.config.js"
     ],
     "compilerOptions": {
       "target": "ES2017",
