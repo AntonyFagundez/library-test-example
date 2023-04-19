@@ -52,9 +52,11 @@ const rollupConfig = {
     }),
     babel({
       extensions: EXTENSIONS,
+      // TODO: Revisar a futuro
       babelHelpers: "inline",
       exclude: "node_modules/**",
     }),
+    // TODO revisar si es necesario realmente?
     commonjs(),
     styles({
       modules: {
@@ -75,6 +77,7 @@ const rollupConfig = {
   ],
   external: EXTERNALS,
   treeshake: {
+    // TODO Revision a fondo.
     moduleSideEffects: false,
     propertyReadSideEffects: false,
     unknownGlobalSideEffects: false,
