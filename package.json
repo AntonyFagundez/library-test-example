@@ -75,5 +75,8 @@
   ],
   "main": "./node/index.js",
   "module": "./index.js",
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
