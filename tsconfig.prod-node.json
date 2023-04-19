@@ -1,0 +1,23 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": [
+      "node_modules", 
+      "dist",
+      "**/*.stories.*",
+      "**/*.test.*",
+      "**/__snapshots__/*"
+    ],
+    "compilerOptions": {
+      "target": "ES2017",
+      "module": "ESNext",
+      "outDir": "dist/node",
+      "lib":[
+        "ES2017",
+        "DOM",
+        "DOM.Iterable",
+        "ESNext",
+        "ES6",
+        "ES5"
+      ]
+    }
+}
