@@ -1,2 +1,5 @@
 # library-test-example
-Library test example with Vite
+Library basic configuration.
+
+
+Enable threeshaking based on standars and practices aplied by libraries like material ui.
