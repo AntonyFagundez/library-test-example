@@ -31,6 +31,9 @@ jobs:
       - name: Install deps
         run: pnpm i --frozen-lockfile
         shell: bash
+      - name: Test
+        run: pnpm test
+        shell: bash
       - name: Build
         run: pnpm build
         shell: bash
