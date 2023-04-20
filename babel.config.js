@@ -1,3 +1,6 @@
+/**
+ * @type {import("@babel/core").ConfigAPI}
+ */
 module.exports = {
   presets: [
     [
@@ -11,4 +14,9 @@ module.exports = {
     "@babel/preset-typescript",
     "@babel/preset-react",
   ],
+  env: {
+    production: {
+      plugins: ["babel-plugin-jsx-remove-data-test-id"],
+    },
+  },
 };

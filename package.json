@@ -5,7 +5,7 @@
   "scripts": {
     "rimraf": "./node_modules/rimraf/bin.js",
     "tsc": "tsc",
-    "build": "rimraf dist && tsc -p tsconfig.prod.json --emitDeclarationOnly && tsc -p tsconfig.prod-node.json --emitDeclarationOnly && rollup --config",
+    "build": "rimraf dist && tsc -p tsconfig.prod.json --emitDeclarationOnly && rollup --config",
     "dev": "vite",
     "build:vite": "tsc && vite build",
     "preview": "vite preview",
@@ -48,7 +48,9 @@
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.59.0",
     "babel-jest": "^29.5.0",
+    "babel-plugin-jsx-remove-data-test-id": "^3.0.0",
     "copyfiles": "^2.4.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard-with-typescript": "^34.0.1",

@@ -55,6 +55,8 @@ const rollupConfig = {
       // TODO: Revisar a futuro
       babelHelpers: "inline",
       exclude: "node_modules/**",
+      // to strip data-testid
+      envName: "production",
     }),
     // TODO revisar si es necesario realmente?
     commonjs(),

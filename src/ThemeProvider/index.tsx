@@ -1,5 +1,5 @@
 import React, { type PropsWithChildren } from "react";
-import styles from "./index.module.css";
+import styles from "./styles.module.css";
 
 export interface IThemeProviderProps extends PropsWithChildren {
   /**
