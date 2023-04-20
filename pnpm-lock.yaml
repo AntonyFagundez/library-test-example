@@ -133,6 +133,9 @@ devDependencies:
   readdirp:
     specifier: ^3.6.0
     version: 3.6.0
+  replace-json-property:
+    specifier: ^1.8.0
+    version: 1.8.0
   rimraf:
     specifier: ^5.0.0
     version: 5.0.0
@@ -8503,6 +8506,14 @@ packages:
     hasBin: true
     dev: true
 
+  /jsonfile@5.0.0:
+    resolution: {integrity: sha512-NQRZ5CRo74MhMMC3/3r5g2k4fjodJ/wh8MxjFbCViWKFjxrnudWSY5vomh+23ZaXzAS7J3fBZIR2dV6WbmfM0w==}
+    dependencies:
+      universalify: 0.1.2
+    optionalDependencies:
+      graceful-fs: 4.2.11
+    dev: true
+
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
@@ -10670,6 +10681,15 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
+  /replace-json-property@1.8.0:
+    resolution: {integrity: sha512-x0TN9mR0Q6b9THtl9tKJj+MGokgC4OMSacgZx2BrX6nce2FufNiu+j8QG05eN0GXDBqlrFs+0OnxOGzWEnSrSA==}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.2
+      commander: 2.20.3
+      jsonfile: 5.0.0
+    dev: true
+
   /require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
@@ -11827,6 +11847,11 @@ packages:
 
   /universal-user-agent@6.0.0:
     resolution: {integrity: sha512-isyNax3wXoKaulPDZWHQqbmIx1k2tb9fb3GGDBRxCscfYV2Ch7WxPArBsFEG8s/safwXTT7H4QGhaIkTp9447w==}
+    dev: true
+
+  /universalify@0.1.2:
+    resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
+    engines: {node: '>= 4.0.0'}
     dev: true
 
   /universalify@0.2.0:
