@@ -3,8 +3,11 @@
  */
 const config = {
   moduleNameMapper: {
-    "^.\\.(css|scss)$": "identity-obj-proxy",
+    // "^.\\.(css|scss)$": "identity-obj-proxy",
+
+    "\\.(css|scss)$": "identity-obj-proxy",
   },
+  verbose: true,
   transformIgnorePatterns: ["/node_modules/"],
   collectCoverageFrom: [
     "src/**/*.tsx",
@@ -16,6 +19,9 @@ const config = {
     "!*.config.js/",
     "!*.config.mjs/",
   ],
+  transform: {
+    "\\.[jt]sx?$": "babel-jest",
+  },
   coverageReporters: ["json-summary", "text", "lcov", "json", "json-summary"],
   modulePathIgnorePatterns: ["<rootDir>/dist"],
   setupFilesAfterEnv: ["<rootDir>/setupTests.ts"],

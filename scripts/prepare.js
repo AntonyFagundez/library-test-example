@@ -20,7 +20,7 @@ const TEMPLATES = {
   PACKAGE_JSON: "./templates/package.json",
 };
 const CHANGELOG_FILE = "CHANGELOG.md";
-const GLOBAL_CSS_VARS_SOURCE = "./src/theme/styles.module.css";
+const GLOBAL_CSS_VARS_SOURCE = "./src/ThemeProvider/index.module.css";
 
 copy([CHANGELOG_FILE, "dist/"], { up: true }, (err) => {
   if (err) console.error(err);

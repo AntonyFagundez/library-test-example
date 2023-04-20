@@ -1,3 +1,1 @@
-export const testFunction = (): string => "hola";
-
-export { Example } from "./Test";
+export { ThemeProvider, type IThemeProviderProps } from "./ThemeProvider";

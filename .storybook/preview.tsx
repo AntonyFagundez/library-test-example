@@ -1,6 +1,7 @@
 import React from "react";
 import type { Preview } from "@storybook/react";
 import pkg from "../package.json";
+import {ThemeProvider} from "../src/ThemeProvider"
 
 const [version, postfix] = pkg.version.split("-");
 const [major, minor, patch ] = version.split(".");
@@ -18,14 +19,14 @@ const preview: Preview = {
     layout: "centered"
   },
   //TODO Apply decorators with provider theme
-  // decorators: [
-  //   (Story) => (
-  //     <ThemeProvider theme="default">
-  //       {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> with Story() to enable it  */}
-  //       <Story />
-  //     </ThemeProvider>
-  //   ),
-  // ],
+  decorators: [
+    (Story) => (
+      <ThemeProvider>
+        {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> with Story() to enable it  */}
+        <Story />
+      </ThemeProvider>
+    ),
+  ],
 };
 
 export default preview;

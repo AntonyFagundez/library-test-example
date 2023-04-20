@@ -1,0 +1,105 @@
+.themeVars {
+    --primaryPaymentDefault: #00D0A6;
+    --tertiaryPayment80: #33D9B8;
+    --tertiaryPayment60: #66E3CA;
+    --tertiaryPayment40: #99ECDB;
+    --tertiaryPayment20: #CCF6ED;
+    --tertiaryPayment10: #E5FAF6;
+    --primaryPaymentDark: #29B095;
+
+    --primarySendDefault: #0049C4;
+    --tertiarySend80: #336DD0;
+    --tertiarySend60: #6692DC;
+    --tertiarySend40: #99B6E7;
+    --tertiarySend20: #CCDBF3;
+    --tertiarySend10: #E5EDF9;
+    --primarySendDark: #0D3F92;
+
+    --primaryCollectDefault: #0097F7;
+    --tertiaryCollect80: #33ACF9;
+    --tertiaryCollect60: #66C1FA;
+    --tertiaryCollect40: #99D5FC;
+    --tertiaryCollect20: #CCEAFD;
+    --tertiaryCollect10: #E5F5FE;
+    --primaryCollectDark: #0783D3;
+
+    --primaryBlack: #121212;
+    --tertiaryGray80: #414141;
+    --tertiaryGray60: #717171;
+    --tertiaryGray40: #A0A0A0;
+    --tertiaryGray20: #D0D0D0;
+    --tertiaryGray08: #ECECEC;
+    --tertiaryGray03: #F8F8F8;
+    --primaryWhite: #FFFFFF;
+
+    --brandGray: #F5F5F5;
+    --opacityGray94: #F4F4F4F0;
+
+    /* --opacityBlack05: `${primaryBlack}0D`; */
+    --opacityBlack05: var(--primaryBlack)0D;
+    --opacityBlack20: var(--primaryBlack)32;
+    --opacityBlack35: var(--primaryBlack)23;
+    --opacityBlack80: var(--primaryBlack)CC;
+    --opacityWhite80: var(--primaryWhite)CC;
+    --opacityWhite70: var(--primaryWhite)B3;
+    --opacityWhite30: var(--primaryWhite)4D;
+    --opacityWhite12: var(--primaryWhite)1F;
+    --opacityWhite00: var(--primaryWhite)00;
+
+    --primarySuccessDark: #44C200;
+    --primarySuccessLight: #ECF9E5;
+    --primaryWarningDark: #F39200;
+    --primaryWarningLight: #FEF4E5;
+    --primaryErrorDark: #FD0658;
+    --primaryErrorLight: #FFE6EE;
+    --primaryBlueTechieDark: #0669FD;
+    --primaryBlueCrossDark: #263144;
+    --secondaryYellowDark: #FFC738;
+    --secondaryYellowLight: #FFF5DB;
+    --secondaryMandarinDark: #EBAE10;
+    --secondaryMandarinLight: #FDF7E7;
+    --secondaryRedDark: #FE5E5E;
+    --secondaryRedLight: #FFEFEF;
+    --secondaryOrangeDark: #F7924A;
+    --secondaryOrangeLight: #FDE9DB;
+    --secondaryPurpleDark: #A376FF;
+    --secondaryPurpleLight: #F6F1FF;
+    --secondaryBrownDark: #6D6B6B;
+    --secondaryBrownLight: #F0F0F0;
+    --secondaryBlueDark: #3395FF;
+    --secondaryBlueLight: #EBF4FF;
+    --secondaryGreenDark: #4EB62A;
+    --secondaryGreenLight: #EDF8EA;
+    --secondaryCyanDark: #29C6E2;
+    --secondaryCyanLight: #EAF9FC;
+    --secondaryPinkDark: #ED72DA;
+    --secondaryPinkLight: #FDF1FB;
+    --secondaryPlatiniumDark: #425573;
+    --secondaryPlatiniumLight: #ECEEF1;
+    --primaryGreenFeedbackLight: #C4FFA5;
+    --primaryOrangeFeedbackLight: #FDE5C2;
+    --primaryRedFeedbackLight: #FFECF2;
+    --blueArgentinaFlag: #73C4F9;
+
+    --sendGradientStart: var(--primarySendDefault);
+    --sendGradientMiddle: #0543AC;
+    --sendGradientEnd: var(--primarySendDark);
+    --requestGradientStart: var(--primaryCollectDefault);
+    --requestGradientEnd: var(--primaryCollectDark);
+    --payGradientStart: var(--primaryPaymentDark);
+    --payGradientMiddle: #1ABE9D;
+    --payGradientEnd: var(--primaryPaymentDefault);
+
+    /* --sendGradient: [sendGradientStart, sendGradientEnd];
+--payGradient: [payGradientStart, payGradientEnd];
+--collectGradient: [requestGradientStart, requestGradientEnd];
+--textGradient: [primaryPaymentDefault, primarySendDefault];
+--DarkBlueGradient: [primaryBlueCrossDark, primaryBlueCrossDark]; */
+
+    --opacityYellow20: var(--secondaryYellowDark)32;
+
+    --transparent: transparent;
+    --translucent: rgba(0, 0, 0, 0);
+    --blackTransparent: rgba(0, 0, 0, 0.2);
+    --whiteTransparent: rgba(255, 255, 255, 0.3);
+}
