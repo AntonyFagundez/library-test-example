@@ -19,7 +19,7 @@ module.exports = {
       {
         // This format is required by semantic release
         // eslint-disable-next-line no-template-curly-in-string
-        prepareCmd: "pnpm dlx rpj package.json version ${nextRelease.version}",
+        prepareCmd: "pnpm dlx rjp package.json version ${nextRelease.version}",
       },
     ],
     [
