@@ -16,7 +16,7 @@ const EXCLUDED_DIR = [...SUB_DIRS, ...IGNORED_FOLDERS];
 const PKG_EXCLUDED_PROPS = ["scripts", "devDependencies", "files"];
 
 const TEMPLATES = {
-  STYLES_DEF: "./templates/styles.module.d.ts",
+  STYLES_DEF: "./templates/styles.module.css.d.ts",
   PACKAGE_JSON: "./templates/package.json",
 };
 const CHANGELOG_FILE = "CHANGELOG.md";
