@@ -1,7 +1,7 @@
 {
   "name": "@antonyfagundez/library-test",
   "private": false,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "rimraf": "./node_modules/rimraf/bin.js",
     "tsc": "tsc",
