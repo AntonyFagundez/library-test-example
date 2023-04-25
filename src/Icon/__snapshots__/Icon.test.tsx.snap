@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Renders Icon with other Size number correctly 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="16"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "BIG" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="BIG"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "LARGE" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="LARGE"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "MEDIUM" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="MEDIUM"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "MSMALL" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="MSMALL"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "REGULAR" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="REGULAR"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "SMALL" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="SMALL"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "XBIG" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="XBIG"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "XMEDIUM" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="XMEDIUM"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "XREGULAR" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="XREGULAR"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "XSMALL" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="XSMALL"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "XXBIG" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="XXBIG"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders Icon with size "XXSMALL" as argument 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="XXSMALL"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders disabled Icon correctly 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root disabled"
+    data-size="MEDIUM"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders icon when is SVG correctly 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="MEDIUM"
+    src=""
+  />
+</div>
+`;
+
+exports[`Icon Renders no disabled Icon correctly 1`] = `
+<div>
+  <img
+    alt="Icono"
+    class="root"
+    data-size="MEDIUM"
+    src=""
+  />
+</div>
+`;

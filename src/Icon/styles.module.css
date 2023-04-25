@@ -1,0 +1,54 @@
+.disabled {
+  opacity: 0.5;
+}
+/* TODO: Pasarlo a sass */
+.root[data-size="XXSMALL"] {
+  width: 12px;
+  height: 12px;
+}
+.root[data-size="XSMALL"] {
+  width: 18px;
+  height: 18px;
+}
+.root[data-size="MSMALL"] {
+  width: 20px;
+  height: 20px;
+}
+.root[data-size="SMALL"] {
+  width: 24px;
+  height: 24px;
+}
+.root[data-size="REGULAR"] {
+  width: 26px;
+  height: 26px;
+}
+
+.root[data-size="XREGULAR"] {
+  width: 30px;
+  height: 30px;
+}
+.root[data-size="MEDIUM"] {
+  width: 36px;
+  height: 36px;
+}
+.root[data-size="XMEDIUM"] {
+  width: 48px;
+  height: 48px;
+}
+.root[data-size="LARGE"] {
+  width: 60px;
+  height: 60px;
+}
+.root[data-size="BIG"] {
+  width: 80px;
+  height: 80px;
+}
+.root[data-size="XBIG"] {
+  width: 100px;
+  height: 100px;
+}
+.root[data-size="XXBIG"] {
+  width: 120px;
+  height: 120px;
+}
+

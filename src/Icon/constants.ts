@@ -1,0 +1,14 @@
+export enum IconSize {
+  XXSMALL = "XXSMALL",
+  XSMALL = "XSMALL",
+  MSMALL = "MSMALL",
+  SMALL = "SMALL",
+  REGULAR = "REGULAR",
+  XREGULAR = "XREGULAR",
+  MEDIUM = "MEDIUM",
+  XMEDIUM = "XMEDIUM",
+  LARGE = "LARGE",
+  BIG = "BIG",
+  XBIG = "XBIG",
+  XXBIG = "XXBIG",
+}
