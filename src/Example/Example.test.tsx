@@ -6,7 +6,7 @@ const defaultProps: IExampleProps = {
   text: "Hola Cele",
 };
 
-describe("<Example/>", () => {
+describe("<Example />", () => {
   it("Should render with default props", () => {
     const { getByText } = render(<Example {...defaultProps} />);
 
